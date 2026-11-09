@@ -1,8 +1,8 @@
 # Switch-over TODO
 
 The Astro site is on `main`, which Vercel deploys to production on every push, and www.23twenty.com now points
-at Vercel (the apex and `http://` redirect to `https://www.23twenty.com/`). GitHub Pages is still switched on for
-the repo, though nothing reaches it any more.
+at Vercel (the apex and `http://` redirect to `https://www.23twenty.com/`). GitHub Pages and the `gh-pages`
+branch are gone.
 
 ## To finish the switch
 
@@ -27,9 +27,8 @@ the repo, though nothing reaches it any more.
 - [x] **Merge `astro` into `main`** (fast-forward) and make `main` the repo's default branch on GitHub, so the
       Keystatic editor opens on it. `master` is an older branch, last changed Feb 2025.
 - [x] **Move the domain.** `www.23twenty.com` and `23twenty.com` are on the Vercel project and DNS points at Vercel.
-- [ ] **Turn off GitHub Pages and delete `gh-pages`.** Pages is still enabled (source `gh-pages`, custom domain
-      `www.23twenty.com`, its HTTPS certificate failing to renew since DNS moved). Repo Settings → Pages → unpublish,
-      then `git push origin --delete gh-pages`.
+- [x] **Turn off GitHub Pages and delete `gh-pages`.** (The API refuses to unpublish; deleting the source branch
+      switched Pages off.)
 
 ## Product decisions (Brian's call)
 
