@@ -17,7 +17,7 @@
     "@fontsource/playfair-display": "^5.3.0",
     "@fontsource/roboto": "^5.3.0",
     "@keystatic/astro": "6.0.0",
-    "@keystatic/core": "0.6.9",
+    "@keystatic/core": "0.6.10",
     "@mux/mux-player": "^3.14.1",
     "astro": "7.3.8",
     "photoswipe": "5.4.4",
