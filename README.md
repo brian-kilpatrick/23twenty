@@ -10,7 +10,7 @@ this repo; Vercel rebuilds and the change is live in about a minute.
 - **Contact & footer** — email, Facebook, Instagram, the menu's Weddings link
 - **Home page** — the heading and tile photos
 - **About page** — currently empty (see `TODO.md`)
-- **Video page** — the Vimeo videos, in order
+- **Video page** — the Mux-hosted videos, in order
 - **Galleries** — one entry per photo gallery (Headshots, Events, Music, Product); add one and it appears on
   the Photography page and at `/photo/<address>/`
 

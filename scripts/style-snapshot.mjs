@@ -22,7 +22,7 @@ for (const [vp, viewport] of Object.entries(viewports)) {
     await page.waitForTimeout(1500);
     await page.evaluate(() => document.fonts.ready);
     result[`${vp} ${path}`] = await page.evaluate((PROPS) => {
-      const skip = (el) => el.closest('iframe, .plyr, [class^="hb-p-"], .pswp, .bm-menu-wrap');
+      const skip = (el) => el.closest('iframe, mux-player, [class^="hb-p-"], .pswp, .bm-menu-wrap');
       const seen = new Map();
       const rows = [];
       for (const el of document.body.querySelectorAll('*')) {

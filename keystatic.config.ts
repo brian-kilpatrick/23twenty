@@ -49,10 +49,10 @@ export default config({
         description: fields.text({ label: 'Description (search results and link previews)', multiline: true }),
         videos: fields.array(
           fields.object({
-            vimeoId: fields.text({ label: 'Vimeo video ID', description: 'The number at the end of the Vimeo link' }),
+            muxPlaybackId: fields.text({ label: 'Mux playback ID', description: "The video's Playback ID in the Mux dashboard (Assets → the video → Playback IDs)" }),
             title: fields.text({ label: 'Title' }),
           }),
-          { label: 'Videos', itemLabel: (props) => props.fields.title.value || props.fields.vimeoId.value },
+          { label: 'Videos', itemLabel: (props) => props.fields.title.value || props.fields.muxPlaybackId.value },
         ),
       },
     }),

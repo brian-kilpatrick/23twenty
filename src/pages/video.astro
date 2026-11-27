@@ -11,11 +11,12 @@ const { videos, description } = await read('videos');
     <div class="video-grid measure">
       {
         videos.map((v) => (
-          <iframe
-            src={`https://player.vimeo.com/video/${v.vimeoId}?badge=0&autopause=0&player_id=0&app_id=58479`}
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-            title={v.title}
-            loading="lazy"
+          <mux-player
+            playback-id={v.muxPlaybackId}
+            stream-type="on-demand"
+            metadata-video-title={v.title}
+            aria-label={v.title}
+            preload="metadata"
           />
         ))
       }
@@ -31,10 +32,14 @@ const { videos, description } = await read('videos');
     gap: 20px;
     padding-top: 50px;
   }
-  iframe {
+  mux-player {
+    display: block;
     width: 500px;
     max-width: 100%;
     aspect-ratio: 16 / 9;
-    border: 0;
   }
 </style>
+
+<script>
+  import '@mux/mux-player';
+</script>

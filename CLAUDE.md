@@ -32,8 +32,8 @@ node scripts/style-snapshot.mjs <url> shots/a.json  # before/after any CSS chang
 node scripts/style-diff.mjs shots/a.json shots/b.json
 ```
 
-Expected noise in `findings.txt`: `/video/` 401s from `challenges.cloudflare.com` / `player.vimeo.com` (Vimeo
-blocks headless browsers). Anything else is real.
+Expected noise in `findings.txt`: none. Anything else is real. Videos stream from Mux (`<mux-player>`,
+playback IDs in `videos.yaml`), not Vimeo.
 
 ## Gotchas
 

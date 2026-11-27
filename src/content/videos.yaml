@@ -3,13 +3,15 @@ description: >-
   films
   and stories for artists, athletes and businesses.
 videos:
-  - vimeoId: '640905967'
-    title: "Good Idea Bad Idea - 4K"
-  - vimeoId: '606086234'
-    title: "Inclub Magazine X Rodney McLeod - Defining Moments"
-  - vimeoId: '747716082'
+  - muxPlaybackId: hl0000wfag00mi4mwWB6LYhgPtXSx9k75yhPMerI4EC43w
+    title: "Taylor Rooks - Good Idea Bad Idea"
+  - muxPlaybackId: cvkrndUoMFJCMwEbD3K6H01gsHazy02ZBCSD4uBPS7Efw
+    title: "Firestarter Conference Sizzle"
+  - muxPlaybackId: WQIKwHu21MKYsfKIlJGGtE5BUnuetUrmdjBiGlTUk200
     title: "Resurgence Church"
-  - vimeoId: '656439697'
-    title: "The Plumes - FINAL"
-  - vimeoId: '549772463'
-    title: "Firestarter Sizzle"
+  - muxPlaybackId: a1hxuzl5z9o9UxyP39FM5A3DGY7JkWO7aKPCiyX024ek
+    title: "CTO Central Park Band Showcase"
+  - muxPlaybackId: ZZ5QANn1e00RPKOjXip4gy9SygNFPaGaCm5oLVc78cHU
+    title: "23TWENTY MEDIA MUSIC REEL"
+  - muxPlaybackId: jQAV57oeWReWrGeuXHky2PnNfk6uekX02sHhjdpe7llg
+    title: "Let Us Adore"
